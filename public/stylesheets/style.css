@@ -1,0 +1,456 @@
+@font-face {
+  font-family: 'Rexlight';
+  src: url("/fonts/Rex-light.ttf"); }
+@font-face {
+  font-family: 'Eau';
+  src: url("/fonts/pfbeausanspro-italic.ttf"); }
+@font-face {
+  font-family: 'Ugo';
+  src: url("/fonts/UGO-COLOR.ttf"); }
+body {
+  margin: 0 auto; }
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  max-width: 704px;
+  height: 68px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Eau'; }
+
+header a {
+  text-decoration: none;
+  color: #707070;
+  padding-right: 20px;
+  cursor: pointer; }
+
+header a:hover {
+  color: #e19e09; }
+
+@media screen and (max-width: 800px) {
+  header {
+    height: auto;
+    font-size: 20px; } }
+@media screen and (max-width: 600px) {
+  header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; } }
+.main404 {
+  display: block;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  -webkit-box-shadow: inset 0 0 0 1000px rgba(102, 51, 51, 0.5);
+          box-shadow: inset 0 0 0 1000px rgba(102, 51, 51, 0.5);
+  text-align: center;
+  background-image: url("/images/404.png");
+  background-position: center;
+  text-transform: uppercase;
+  padding: 290px 0px 290px 0px;
+  font-family: 'Rexlight'; }
+  .main404 .title1 {
+    color: #e19e09;
+    font-size: 38px; }
+  .main404 .title2 {
+    color: #fff;
+    font-size: 315px; }
+  .main404 .title3 {
+    color: #c6c3c3;
+    font-size: 24px; }
+
+@media screen and (max-width: 600px) {
+  .main404 .title2 {
+    font-size: 150px; } }
+.mainPubs {
+  display: block;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  -webkit-box-shadow: inset 0 0 0 1000px rgba(102, 51, 51, 0.5);
+          box-shadow: inset 0 0 0 1000px rgba(102, 51, 51, 0.5);
+  background-image: url("/images/pubs.png");
+  background-position: top;
+  height: 520px; }
+
+.mainPubs-content {
+  margin: 0 auto;
+  max-width: 778px;
+  font-family: 'Eau';
+  font-size: 16px;
+  padding-top: 60px;
+  height: 700px;
+  text-align: left; }
+
+.mainPubs-content-title {
+  font-family: 'Ugo';
+  font-size: 93px;
+  color: #e19e09;
+  text-transform: uppercase; }
+
+.mainPubs-content-text {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 40px; }
+
+.mainPubs-content-opens-text {
+  font-size: 23px; }
+
+@media screen and (max-width: 800px) {
+  .mainPubs-content {
+    width: 500px; }
+
+  .mainPubs-content-title {
+    font-size: 72px; } }
+@media screen and (max-width: 600px) {
+  .mainPubs {
+    height: 300px; }
+
+  .mainPubs-content {
+    width: 400px; }
+
+  .mainPubs-content-title {
+    font-size: 40px; }
+
+  .mainPubs-content-text {
+    line-height: 30px; } }
+@media screen and (max-width: 420px) {
+  .mainPubs-content {
+    width: 300px; }
+
+  .mainPubs-content-title {
+    font-size: 30px; }
+
+  .mainPubs-content {
+    padding-top: 30px; }
+
+  .mainPubs-content-text {
+    line-height: 20px; } }
+.mainHome {
+  display: block;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  -webkit-box-shadow: inset 0 0 0 1000px rgba(102, 51, 51, 0.5);
+          box-shadow: inset 0 0 0 1000px rgba(102, 51, 51, 0.5);
+  background-image: url("/images/home1.png");
+  background-position: center;
+  background-size: cover;
+  -webkit-box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.1);
+          box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.1);
+  height: 1090px; }
+
+.home-logo {
+  padding-top: 350px;
+  height: 666px;
+  -webkit-filter: invert(1);
+          filter: invert(1);
+  background-image: url("/images/home-logo.png");
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.beerhouse {
+  padding: 0px 0px 80px 0px; }
+
+.beerhouse-logo {
+  height: 300px;
+  padding-bottom: 80px;
+  -webkit-filter: invert(0.2);
+          filter: invert(0.2);
+  background-image: url("/images/home-barrel.png");
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.beerhouse-title {
+  font-family: 'Ugo';
+  font-size: 93px;
+  color: #e19e09;
+  text-transform: uppercase;
+  font-size: 85px;
+  text-align: center; }
+
+.beerhouse-text {
+  margin: 0 auto;
+  max-width: 778px;
+  font-family: 'Eau';
+  font-size: 16px;
+  padding-top: 40px;
+  font-weight: bold;
+  text-align: justify; }
+
+.barrels {
+  background-image: url("/images/home2.png");
+  background-position: center;
+  height: 294px; }
+
+@media screen and (max-width: 800px) {
+  .mainHome {
+    height: 500px; }
+
+  .home-logo {
+    height: 300px;
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7); }
+
+  .beerhouse-text {
+    width: 500px; }
+
+  .beerhouse-title {
+    font-size: 72px; } }
+@media screen and (max-width: 700px) {
+  .home-logo {
+    height: 350px;
+    margin: 0px -100px 0px -100px;
+    -webkit-transform: scale(0.6);
+            transform: scale(0.6); } }
+@media screen and (max-width: 600px) {
+  .mainHome {
+    height: 300px; }
+
+  .home-logo {
+    display: none; }
+
+  .beerhouse-logo {
+    display: none; }
+
+  .beerhouse-text {
+    width: 400px; }
+
+  .beerhouse-title {
+    padding-top: 20px;
+    font-size: 40px; } }
+@media screen and (max-width: 450px) {
+  .beerhouse-text {
+    width: 300px; } }
+.mainBeer {
+  background-image: url("/images/beer.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
+          box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
+  height: 518px; }
+
+.mainBeer-content {
+  padding-bottom: 80px; }
+
+.mainBeer-title {
+  font-family: 'Ugo';
+  font-size: 93px;
+  color: #e19e09;
+  text-transform: uppercase;
+  padding: 60px 0px 0px 0px;
+  font-size: 85px;
+  text-align: center; }
+
+.mainBeer-text {
+  margin: 0 auto;
+  max-width: 778px;
+  font-family: 'Eau';
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 40px;
+  text-align: justify; }
+
+.mainBeer-brands {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 40px;
+  margin: 0 auto;
+  width: 778px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .mainBeer-brands div {
+    width: 130px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center; }
+  .mainBeer-brands .mainBeer-1 {
+    background-image: url("/images/beer-logo1.png");
+    width: 100px; }
+  .mainBeer-brands .mainBeer-2 {
+    background-image: url("/images/beer-logo2.png");
+    width: 80px; }
+  .mainBeer-brands .mainBeer-3 {
+    background-image: url("/images/beer-logo3.png");
+    width: 100px; }
+  .mainBeer-brands .mainBeer-4 {
+    background-image: url("/images/beer-logo4.png");
+    width: 120px; }
+  .mainBeer-brands .mainBeer-5 {
+    background-image: url("/images/beer-logo5.png");
+    width: 130px; }
+
+@media screen and (max-width: 800px) {
+  .mainBeer-text {
+    width: 500px; }
+
+  .mainBeer-title {
+    font-size: 72px; }
+
+  .mainBeer-brands {
+    width: 530px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9); } }
+@media screen and (max-width: 600px) {
+  .mainBeer {
+    height: 400px; }
+
+  .mainBeer-title {
+    padding-top: 20px;
+    font-size: 40px; }
+
+  .mainBeer-text {
+    width: 400px;
+    line-height: 30px; }
+
+  .mainBeer-brands {
+    max-width: 300px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; } }
+@media screen and (max-width: 420px) {
+  .mainBeer {
+    height: 300px; }
+
+  .mainBeer-text {
+    width: 300px;
+    line-height: 20px; }
+
+  .mainBeer-brands {
+    padding-top: 0; }
+
+  .mainBeer-content {
+    padding-bottom: 0; } }
+.mainBuddy {
+  display: block;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  -webkit-box-shadow: inset 0 0 0 1000px rgba(102, 51, 51, 0.5);
+          box-shadow: inset 0 0 0 1000px rgba(102, 51, 51, 0.5);
+  background-image: url("/images/buddy.png");
+  height: 520px;
+  background-position: bottom; }
+
+.buddy-text {
+  text-align: center;
+  font-family: 'Eau';
+  font-size: 16px; }
+
+.buddy-title {
+  font-family: 'Ugo';
+  font-size: 93px;
+  color: #e19e09;
+  text-transform: uppercase;
+  padding: 60px 0px 0px 0px;
+  font-size: 93px;
+  text-align: center; }
+
+.buddy-form {
+  margin: 0 auto;
+  max-width: 1075px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+  .buddy-form p {
+    font-family: 'Eau'; }
+
+.buddy-form-inputs1 {
+  padding-top: 34px; }
+  .buddy-form-inputs1 input {
+    width: 240px;
+    height: 35px;
+    font-size: 20px;
+    border: 1px solid #303030; }
+  .buddy-form-inputs1 span {
+    color: #e19e09; }
+  .buddy-form-inputs1 p:nth-of-type(1) input {
+    margin-left: 10px; }
+  .buddy-form-inputs1 p:nth-of-type(2) input {
+    margin-left: 12px; }
+  .buddy-form-inputs1 p:nth-of-type(3) input {
+    margin-left: 7px; }
+  .buddy-form-inputs1 p:nth-of-type(4) input {
+    margin-left: 13px; }
+
+.sendButton {
+  width: 530px;
+  height: 60px;
+  margin: 25px 0px 25px 0px;
+  line-height: 70px;
+  font-size: 50px;
+  font-family: 'Ugo';
+  background-color: #e19e09;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer; }
+
+.sendButton:hover {
+  background-color: #957806; }
+
+textarea {
+  width: 525px;
+  height: 208px;
+  font-size: 20px;
+  border: 1px solid #303030; }
+
+@media screen and (max-width: 960px) {
+  .buddy-form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+
+  .buddy-title {
+    font-size: 48px; } }
+@media screen and (max-width: 600px) {
+  .mainBuddy {
+    height: 400px; }
+
+  .sendButton {
+    width: 400px; }
+
+  textarea {
+    width: 395px; } }
+@media screen and (max-width: 420px) {
+  .buddy-title {
+    padding-top: 20px; }
+
+  .mainBuddy {
+    height: 300px; }
+
+  .sendButton {
+    width: 300px; }
+
+  textarea {
+    width: 295px; } }
+@media screen and (max-width: 336px) {
+  .buddy-form-inputs1 p:nth-of-type(1) input {
+    margin-left: 12px; }
+  .buddy-form-inputs1 p:nth-of-type(2) input {
+    margin-left: 12px; }
+  .buddy-form-inputs1 p:nth-of-type(3) input {
+    margin-left: 12px; } }
+
+/*# sourceMappingURL=style.css.map */

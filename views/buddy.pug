@@ -1,0 +1,30 @@
+
+extends layout
+block content
+	include header.pug
+	.mainBuddy
+	.buddy-title become our beer buddy!
+	.buddy-text sign up to receive our latest news and incredible offers
+	.buddy-form
+		.buddy-form-inputs1
+		p
+			| First Name
+			span *
+			input(type='text')
+		p
+			| Last Name
+			span *
+			input(type='text')
+		p
+			| Your adress
+			span *
+			input(type='text')
+		p
+			| Your email
+			span *
+			input(type='email')
+		.buddy-form-inputs2
+			p Leave your comment&amp;nbsp&amp;nbsp
+			center
+				textarea
+			.sendButton send
