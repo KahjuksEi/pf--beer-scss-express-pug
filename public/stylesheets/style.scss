@@ -163,6 +163,7 @@ header a {
 .barrels{
 	background-image: url("/images/home2.png");
 	background-position:center;
+	background-size: cover;
 	height: 294px;
 }
 
@@ -176,7 +177,7 @@ header a {
 	.home-logo{height: 350px;margin:0px -100px 0px -100px;transform:scale(.6);}
 }
 @media screen and (max-width: 600px){
-	.mainHome{height: 300px;}
+  .mainHome{height: 300px;}
   .home-logo{display: none;}
   .beerhouse-logo{display: none;}
   .beerhouse-text{width: 400px;}
@@ -268,17 +269,12 @@ padding-bottom: 80px;
 	max-width: 1075px;
 	display: flex;
 	justify-content:space-around;
-	p{font-family:'Eau';}
+	p{font-family:'Eau';text-align: right;}
+	input{width: 240px;height: 34px;font-size: 20px;border: 1px solid #303030;}
+    span{@include amber();}
+    .buddy-form-inputs1{margin: 43px 0px 0px 0px;}
 }
-.buddy-form-inputs1{
-  padding-top: 34px;
-  input{width: 240px;height: 35px;font-size: 20px;border: 1px solid #303030;}
-  span{@include amber();}
-  p:nth-of-type(1){input{margin-left: 10px;}}
-  p:nth-of-type(2){input{margin-left: 12px;}}
-  p:nth-of-type(3){input{margin-left: 7px;}}
-  p:nth-of-type(4){input{margin-left: 13px;}}
-}
+
 .sendButton{
 	width: 530px;
 	height: 60px;
@@ -312,13 +308,9 @@ textarea{
 @media screen and (max-width: 420px){
   .buddy-title{padding-top: 20px;}
   .mainBuddy{height: 300px;}
-	.sendButton{width: 300px;}
+  .sendButton{width: 300px;}
 	textarea{width: 295px;}
 }
-@media screen and (max-width: 336px){
-	.buddy-form-inputs1{
-	p:nth-of-type(1){input{margin-left: 12px;}}
-  p:nth-of-type(2){input{margin-left: 12px;}}
-  p:nth-of-type(3){input{margin-left: 12px;}}
-}
+@media screen and (max-width: 380px){
+	.buddy-form input{width: 190px;}
 }
